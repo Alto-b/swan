@@ -11,7 +11,7 @@ class BnbPage extends StatefulWidget {
 class _BnbPageState extends State<BnbPage> {
   int indexNum = 0;
 
-  List screen = const [
+  List screen = [
     HomeScreen(),
     //ProfilePage(),
     HomeScreen(),

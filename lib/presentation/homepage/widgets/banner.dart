@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 class HomeScreenBanner extends StatelessWidget {
-  const HomeScreenBanner({
-    super.key,
-    required this.screenWidth,
-    required this.screenHeight,
-  });
-
+  HomeScreenBanner(
+      {super.key,
+      required this.screenWidth,
+      required this.screenHeight,
+      required this.bannerList});
+  List<Map<String, dynamic>> bannerList;
   final double screenWidth;
   final double screenHeight;
 
@@ -18,8 +18,13 @@ class HomeScreenBanner extends StatelessWidget {
           width: screenWidth,
           height: screenHeight / 3.5,
           decoration: BoxDecoration(color: Colors.amber),
+          child: Image.network(
+              fit: BoxFit.cover,
+              "https://swan.alisonsnewdemo.online/images/banner/${bannerList[0]['image']}"),
+          // child: Text(
+          //     "https://swan.alisonsnewdemo.online/images/banner/${bannerList[0]['image']}"),
         ),
-        Text("data"),
+        // Text("data"),
         Positioned(
             bottom: 5,
             right: 5,
