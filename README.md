@@ -1,16 +1,3 @@
 # swan
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot 2024-05-13 175836 (1)](https://github.com/Alto-b/swan/assets/89630614/2ba5d32d-4ac1-4a65-aa0c-6eaf239b5bab)
+![Screenshot 2024-05-13 175836](https://github.com/Alto-b/swan/assets/89630614/e9a32efc-3a97-422b-ae7c-5650e02f93de)
